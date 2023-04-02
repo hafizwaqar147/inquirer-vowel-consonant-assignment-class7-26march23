@@ -1,21 +1,23 @@
 {
-  "name": "vowelorconsonant",
+  "name": "calculator1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "calculator1.js",
   "type": "module",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/figlet": "^1.5.5",
+    "@types/inquirer": "^9.0.3",
+    "chalk": "^5.2.0",
+    "figlet": "^1.5.2",
+    "inquirer": "^9.1.5"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@types/node": "^18.15.11",
-    "chalk": "^5.2.0",
-    "inquirer": "^9.1.5"
-  },
-  "devDependencies": {
-    "@types/inquirer": "^9.0.3"
-  }
+  "license": "ISC"
 }
